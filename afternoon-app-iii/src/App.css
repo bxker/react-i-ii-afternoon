@@ -34,11 +34,11 @@ body {
   width: 40%
 }
 .white-box-left {
-  width: 60%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  padding-left: 10vw;
 }
 
 .white-box h1 {
@@ -53,14 +53,14 @@ body {
 .white-box h2 {
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
   width: 20vw;
 }
 
 .white-box h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  width: 20vw;
+  width: 70%;
 }
 
 .movie-list {
@@ -79,9 +79,9 @@ body {
 .buttons {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
   width: 75vw;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  padding: 10px 0px 10px 0px;
 }
 
 .scroll-left button{
@@ -92,6 +92,9 @@ body {
   text-decoration: none;
   font-size: 16px;
   padding: 10px;
+}
+.scroll-left button:hover {
+  background: #34A5DA
 }
 
 .buttons-mid button {
@@ -115,4 +118,8 @@ body {
   text-decoration: none;
   font-size: 16px;
   padding: 10px;
+}
+
+.scroll-right button:hover {
+  background: #34A5DA
 }
